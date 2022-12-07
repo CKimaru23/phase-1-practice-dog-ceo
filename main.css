@@ -1,0 +1,69 @@
+:root{
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6b7280;
+    --light: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5cf6;
+    --red: #FF0000;
+    --yellow: #FFFF00;
+    --green: #00FF00;
+
+
+}
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+} */
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    background: var(--gray);
+}
+
+h1, #labl {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to right, var(--light), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+#dog-image-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#imgClass {
+    margin-top: 20px;
+}
+
+#sel {
+    display: flex;
+    flex-direction: column;
+    background: var(--gray);
+    width: 100%; 
+    border-radius: 1rem;
+}
+
+#val {
+    border-radius: 3rem;
+    background: var(--gray);
+    width: 2rem;
+
+
+}
+
